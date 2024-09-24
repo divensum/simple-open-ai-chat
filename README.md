@@ -25,15 +25,14 @@
 1. Run the app by running `StreamingAiChatApplication.java` in your IDE or with the Maven command `mvn spring-boot:run`.
 2. Run docker container using this command line:
 
-```bash
-docker run commnd here
-```
 
 ### Working spaces
 
 This is simple AI chats, created using [**Spring AI framework**](https://docs.spring.io/spring-ai/reference/vaa) and [**Vaadin**](https://vaadin.com/docs/latest/)
 
-screencast here
+<a>
+    <img title="Frontend" src="src/main/resources/media/screen-simple-open-ai-chat.gif" alt="Frontend">
+</a> 
 
 1. [**Simple Assistant Chat**](http://localhost:8080/) - Simple AI Assistant chat with memory, created with system prompt:
 ```text

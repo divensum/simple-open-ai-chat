@@ -44,7 +44,7 @@ public class GreedyDriverView extends VerticalLayout {
             chatHistory.add(new UserMessage(e.getValue()));
             messageList.add(new MarkdownMessage(e.getValue(), "You:"));
 
-            MarkdownMessage reply = new MarkdownMessage("Assistant:");
+            MarkdownMessage reply = new MarkdownMessage("Taxi Driver:");
             messageList.add(reply);
 
             Prompt prompt = new Prompt(chatHistory);
